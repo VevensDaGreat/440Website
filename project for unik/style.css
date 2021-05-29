@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.Header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./images/wallap.jpg");
+  justify-content: center;
+  color: azure;
+  text-align: center;
+}
+
+.HeaderText {
+  background-color: rgba(100, 100, 100, 0.493);
+  border-radius: 22px;
+}
+
+body h1 {
+  font-size: 56px;
+  margin: 0;
+  font-family: "Oswald";
+}
+
+body h2 {
+  font-size: 48px;
+  margin: 0;
+  font-family: "Oswald";
+}
+
+body p {
+  font-size: 42px;
+  margin: 0;
+  font-family: "PT Sans";
+}
+
+.SmallTalk {
+  font-size: 26px;
+  margin: 0;
+  font-family: "PT Sans";
+}
+
+.AboutUs {
+  position: relative;
+  text-align: center;
+  min-height: 70vh;
+  margin-top: 5%;
+}
+
+.Container1 {
+  margin-top: 5%;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.Strengths {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 2%;
+}
+
+.StrengthsInfo {
+  margin-top: 5%;
+  margin-left: 25px;
+}
+.Strengths img {
+  height: 80px;
+  width: 80px;
+  margin-top: 5%;
+}
+
+.Important {
+  position: relative;
+  text-align: center;
+  height: auto;
+  background-color: rgb(184, 184, 184);
+  align-items: center;
+}
+
+.ImpoName {
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.Or {
+  height: 10%;
+  width: 40%;
+  margin-top: 3%;
+  margin-left: 30%;
+  text-align: center;
+  background-color: royalblue;
+  border-radius: 30px;
+}
+
+.Squad {
+  height: auto;
+}
+
+.SquadText {
+  text-align: center;
+  width: 80%;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.SquadCards {
+  width: 90%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.SquadCard {
+  width: 80vw;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-left: 5vw;
+}
+
+.SquadCard img {
+  height: auto;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.ScrimRequest {
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  padding-top: 6%;
+  background-color: rgb(184, 184, 184);
+}
+
+.Form p {
+  padding-top: 5%;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 17px 25px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+.SubmitButton {
+  background-color: royalblue;
+  margin-left: 40%;
+  width: 20%;
+  height: 70px;
+  border-radius: 25px;
+  margin-top: 5%;
+}
+
+.ButtonText {
+  padding-top: 2%;
+}
+
+@media screen and (max-width: 420px) {
+  .Container1 {
+    margin-left: 0;
+  }
+  body h1 {
+    font-size: 45px;
+    margin: 0;
+  }
+
+  body h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  body p {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .SmallTalk {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .Container1 {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+
+  .SubmitButton {
+    background-color: royalblue;
+    margin-left: 30%;
+    width: 40%;
+  }
+
+  .Header {
+    height: 100vh;
+    background-image: url("./images/mobilka.jpg");
+    color: azure;
+    text-align: center;
+    object-fit: contain;
+  }
+}
